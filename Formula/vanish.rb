@@ -7,14 +7,14 @@ class Vanish < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/alfredgpennyworth/vanish-link/releases/download/v0.1.0/vanish-macos-arm64"
-      sha256 "2b5f3cfeb7f3fa8367bd3819c13c33d99edd58ccc9a0f2001618af3864836e1a"
+      sha256 "3a34905cb5b71f9513e241582309d2a70098ec3acd50eb2fd3968472682d8f85"
 
       def install
         bin.install "vanish-macos-arm64" => "vanish"
       end
     else
       url "https://github.com/alfredgpennyworth/vanish-link/releases/download/v0.1.0/vanish-macos-x64"
-      sha256 "bb4f55a59e51869a82d3766188056b3bb217c519fdce8d9682d968941dcdb696"
+      sha256 "b70c49634328e4e0210ad983aa7bc5b8dc5740121b6e60a4d7199ebeefb04735"
 
       def install
         bin.install "vanish-macos-x64" => "vanish"
@@ -32,7 +32,7 @@ class Vanish < Formula
       end
     else
       url "https://github.com/alfredgpennyworth/vanish-link/releases/download/v0.1.0/vanish-linux-x64"
-      sha256 "cc3d3374a515f9d7a942f2ac474087fa6b27684ea173fa8576e92ccda9ff2ee9"
+      sha256 "c2c7c44d8cc9541d0e95734aeeba13ab5dfe8cb7e8bd84e0dfe4437226b76dae"
 
       def install
         bin.install "vanish-linux-x64" => "vanish"
